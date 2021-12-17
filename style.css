@@ -1,0 +1,112 @@
+.content {
+    width: 100%;
+    height: 100%;
+}
+.content .header {
+    height: 430px;
+    width: 100%;
+    background-image: url("assets/background-haut.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.content .body {
+    width: 100%;    
+}
+.content .body .rectangle {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border: 1px solid #006400;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 3px;
+}
+.content .body .rectangle  .rectangle-content  .rectangle-icon {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+}
+.content .body .rectangle  .rectangle-content  .rectangle-label {
+    margin-left: 25px;
+    color: #006400;
+}
+.content .body .text {
+    width: 795px;
+    height: 155px;
+    display: block;
+    margin: auto;
+    padding: 25px 25px 0 25px;
+}
+.content .body .text  .title {
+    text-align: center;
+}
+.content .body .text  .title .title-marqueur {
+width: 10px;
+height: 10px;
+margin-right: 6px;
+margin-bottom: 5px;
+}
+.content .body .text  .title  .title-label {
+text-transform: uppercase;
+color: #b20510;
+}
+.content .footer {
+width: 100%;
+height: 672px;
+margin-top: 120px;
+}
+.content .footer .btn-actions {
+display: block;
+text-align: center;
+margin: 20px;
+}
+.content .footer .btn-actions  .btn-blue {
+    margin: 5px;
+    background-color: #0093d7;
+    color: white;
+    border-radius: 25px;
+    border: white;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 6px;
+}
+.content .footer .btn-actions .btn-red {
+    margin: 5px;
+    background-color: #b20510;
+    color: white;
+    border-radius: 25px;
+    border: white;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 6px;
+}
+
+.content .footer .upload-file {
+    width: 500px;
+    height: 320px;
+    display: block;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 27px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 5px;
+}
+.content .footer .upload-file .desc {
+    padding-bottom: 20px;
+}
+.content .footer .upload-file .upload {
+    text-align: left;
+}
+.content .footer .upload-file .btn-upload {
+    border: 4px solid #0093d7;
+    margin-top: 85px;
+    padding: 7px 30px 7px 30px;
+    color: #0093d7;
+    font-weight: bold;
+    background-color: white;
+}
+  
